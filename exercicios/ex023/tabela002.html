@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        thead th{
+            background-color: gray;
+            color: white;
+            border: 1px solid black;
+            padding: 13px;
+            position: relative;
+            
+        }
+
+        thead tr th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+            
+        }
+
+        tbody tr:nth-child(2n){
+            background-color: lightgray;
+
+        }
+
+        tbody td{
+            border: 1px solid black;
+            padding: 7px;
+        }
+        tbody td:hover{
+            background-color: skyblue;
+        }
+        
+        tbody td.num:hover{
+            background-color: lightgreen;
+        }
+
+        tfoot th, td{
+            padding: 2px;;
+            border: 1px solid black;
+        }
+
+        tfoot th{
+            background-color: grey;
+            color: white;
+        }
+         tfoot td:hover{
+            background-color: lightcoral;
+         }
+         caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 5px;
+            background-color: lightgray;
+         }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas Grandes</h1> 
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">46 024 937</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 732 660</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 615 526</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 659 023</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 835 379</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 088 065</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td><strong>123 345 032</strong></td>
+            </tr>
+        </tfoot>
+        <caption>População das Unidades Federativas</caption>
+    </table>
+</body>
+</html>
