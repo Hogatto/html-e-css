@@ -20,16 +20,57 @@ body, html{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
     display: block;
 }
+.conteudo{
+    padding: 10px;
+}
+
+.conteudo p{
+    font-size: 0.9em;
+}
+
+.perfume{
+    color: gray;
+    letter-spacing: 0.4em;
+}
+.conteudo h1{
+    text-align: left;
+}
+.page h1{
+    padding: 10px 0px;
+}
 
 .imagem{
     background: url(images/image-product-mobile.jpg)no-repeat;
-    height: 200px;
+    height: 180px;
     background-size: contain;
     display: block;
+    padding: 0px;
+}
+
+.numeroGrande{
+    float: left;
+    font-size:28px;
+}
+.numeroPequeno{
+    float: right;
+    padding: 21px 0px;
+    margin-right: 90px;
+    text-decoration: line-through;
+}
+
+input{
+    background-color: rgb(58, 175, 58);
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
 }
