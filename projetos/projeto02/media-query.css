@@ -6,12 +6,15 @@
     }
 
     .plano{
-        width: 50%;
-        padding-bottom: 25px;
+        display: inline-block;
+        width: 317px;
     }
     
     .nosEscolha{
-        width: 50%;
+        display: inline-block;
+        width: 317px;
         float: right;
-
+        margin-right: 3px;
+        
+    }
 }
