@@ -1,20 +1,34 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .page{
-        width: 50vw;
+        width: 40vw;
+        height: 400px;
+    }
+    .page h1{
+        padding: 20px 0px;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.747);
+    }
+    .perfume{
+        padding-top: 20px;
+    }
+    .conteudo p {
+        color: gray;
+        line-height: 1.5em;
     }
 
     .imagem{
         background-image: url(images/image-product-desktop.jpg);
+        background-size: contain;
         float: left;
         width: 50%;
-        height: 100%;
+        height:400px;
 
     }
 
     .conteudo{
         float: right;
-
+        width: 50%;
     }
 }
