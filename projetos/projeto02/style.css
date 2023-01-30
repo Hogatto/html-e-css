@@ -5,7 +5,11 @@
     --secundary-color: hsl(71, 73%, 54%);
     --neutra01:hsl(204, 43%, 93%);
     --neutra02:hsl(218, 22%, 67%);
+}
 
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
